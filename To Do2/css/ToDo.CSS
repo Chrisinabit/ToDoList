@@ -1,0 +1,59 @@
+.container{
+	margin-top: 8rem;
+	height: 70rem;
+}
+input{
+	background-color: white;
+	border-radius: 4px;
+	border:none;
+	padding-left: 5px;
+	height: 2.5rem;
+	width: 15rem;
+	font-weight: bold;
+	text-transform: capitalize;
+
+	
+}
+#enter{
+  	border-radius: 4px;
+  	border:none;
+  	background-color: grey;
+  	width: 3rem;
+  	height: 2.5rem;
+}
+#enter:hover{
+	background-color: #669999;
+	color: red;
+}
+ul{
+	text-align: left;
+}
+li{
+	border-radius: 4px;
+	list-style: none;
+	color: red;
+	font-weight: bold;
+	margin-top: 2px;
+	margin-left:-2.5rem;
+	border:none;
+	background-color: white;
+	padding-left: 5px;
+	height: 2.5rem;
+	width: 15rem;
+}
+li > button{
+	border:none;
+	float: right;
+	color: #025f70;
+}
+li:hover{
+	background-color: #336666;
+}
+.done{
+	background-color: green;
+	color: #999966;
+
+}
+.delete{
+	display: none;
+}
